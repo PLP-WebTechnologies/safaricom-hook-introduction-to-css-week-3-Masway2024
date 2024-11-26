@@ -1,0 +1,75 @@
+/* Element Selector */
+h1 {
+    font-size: 36px;
+}
+
+/* Class Selector */
+.specialSection {
+    background-color: lightblue;
+}
+
+/* ID Selector */
+#uniqueElement {
+    border: 2px solid black;
+}
+
+/* External CSS */
+body {
+    background-color: lightgray;
+}
+
+a:hover {
+    color: red;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* ID Selector: Unique Element with Border */
+#uniqueElement {
+    border: 2px solid #000;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffeb3b;
+}
+
+/* Class Selector: Special Section with Background */
+.specialSection {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
